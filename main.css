@@ -47,11 +47,24 @@ table {
 	border-spacing: 0;
 }
 a {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    text-decoration: none;
-    color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
 }
 main {
-    background: orange;
+  background: orange;
+}
+nav {
+  background: rgb(0, 255, 234);
+  display: flex;
+  justify-content: space-between;
+}
+.left-align {
+  background: green;
+  height: 35px;
+}
+.right-align {
+  background: red;
+  height: 35px;
 }
