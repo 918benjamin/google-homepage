@@ -51,6 +51,8 @@ a {
   font-size: 13px;
   text-decoration: none;
   color: #000;
+  padding-left: 15px;
+  line-height: 28px;
 }
 main {
   background: orange;
@@ -67,4 +69,11 @@ nav {
 .right-align {
   background: red;
   height: 35px;
+}
+.account {
+  background: #4285f4;
+  color: white;
+  font-weight: bold;
+  padding: 0px 12px;
+  line-height: 28px;
 }
