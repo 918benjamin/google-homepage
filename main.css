@@ -52,8 +52,38 @@ a {
   text-decoration: none;
   color: #000;
   padding-left: 15px;
-  line-height: 28px;
+  line-height: 40px;
   cursor: pointer;
+}
+footer a {
+  padding-left: 27px;
+}
+#about {
+  margin-left: 10px;
+}
+.header {
+  margin-top: 10px;
+}
+.right-align {
+  margin-right: 15px;
+}
+.grid {
+  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;
+  background-position-x: -132px;
+  background-position-y: -38px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  color: rgb(0, 0, 0);
+  line-height: normal;
+  opacity: 0.55;
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
 }
 a:hover {
   text-decoration: underline;
@@ -87,6 +117,7 @@ nav {
   font-weight: bold;
   padding: 0px 12px;
   line-height: 28px;
+  border: none;
 }
 .search {
   background: #f2f2f2;
@@ -99,6 +130,9 @@ nav {
   height: 36px;
   min-width: 54px;
   cursor: pointer;
+}
+.search:hover{
+  border: 1px solid #c6c6c6;
 }
 nav.footer {
   background: #f4f4f4;
