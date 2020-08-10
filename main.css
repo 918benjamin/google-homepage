@@ -55,19 +55,31 @@ a {
   line-height: 28px;
 }
 main {
-  background: orange;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.main-logo {
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+}
+.search-input {
+  height: 44px;
+  width: 482px;
+  border: 1px solid #dfe1e5;
+  background: #fff;
+  border-radius: 24px
 }
 nav {
-  background: rgb(0, 255, 234);
   display: flex;
   justify-content: space-between;
 }
 .left-align {
-  background: green;
   height: 35px;
 }
 .right-align {
-  background: red;
   height: 35px;
 }
 .account {
@@ -76,4 +88,10 @@ nav {
   font-weight: bold;
   padding: 0px 12px;
   line-height: 28px;
+}
+button .search-buttons {
+  background: #f3f3f3;
+}
+footer {
+  background: #f4f4f4;
 }
