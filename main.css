@@ -119,6 +119,10 @@ nav {
   line-height: 28px;
   border: none;
 }
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
 .search {
   background: #f2f2f2;
   margin: 11px 4px;
