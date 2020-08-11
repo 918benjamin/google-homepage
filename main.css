@@ -50,13 +50,14 @@ a {
   font-family: Arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
-  color: #000;
+  color: rgb(95, 99, 104);
   padding-left: 15px;
   line-height: 40px;
   cursor: pointer;
 }
 footer a {
   padding-left: 27px;
+  font-size: 14px;
 }
 #about {
   margin-left: 10px;
@@ -109,7 +110,7 @@ main {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 35px;
+  height: 40px;
 }
 .account {
   background: #4285f4;
